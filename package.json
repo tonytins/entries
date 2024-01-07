@@ -1,0 +1,21 @@
+{
+  "name": "entries",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.2",
+    "tauri-plugin-window-state-api": "https://github.com/tauri-apps/tauri-plugin-window-state#v1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.8",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
