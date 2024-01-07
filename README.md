@@ -34,4 +34,4 @@ $ yarn tauri build
 
 ## License
 
-I license this project under the MPL-2.0 license - see [LICENSE](LICENSE) for details.
+I license this project under the GPL-2.0 license - see [LICENSE](LICENSE) for details.
