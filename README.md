@@ -19,6 +19,19 @@ Entries is a Notion client developed in Rust using Tauri as a front-end. In a br
 - [VS Code](https://code.visualstudio.com/)
   - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
+## Getting Started
+
+```shell
+$ yarn
+$ yarn tauri dev 
+```
+
+### Building
+
+```shell
+$ yarn tauri build 
+```
+
 ## License
 
 I license this project under the MPL-2.0 license - see [LICENSE](LICENSE) for details.

@@ -3,4 +3,8 @@
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 // import { invoke } from "@tauri-apps/api/tauri";
 
-location.replace("https://www.notion.so");
+if (navigator.onLine) {
+  location.replace("https://www.notion.so");
+} else {
+  location.replace("offline.html");
+}
