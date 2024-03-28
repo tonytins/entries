@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,linux,node,rust,rust-analyzer,windows,yarn
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,linux,node,rust,rust-analyzer,windows,yarn
+# Created by https://www.toptal.com/developers/gitignore/api/yarn,windows,visualstudiocode,node,macos,linux,rust,rust-analyzer
+# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,windows,visualstudiocode,node,macos,linux,rust,rust-analyzer
 
 ### Linux ###
 *~
@@ -273,7 +273,7 @@ $RECYCLE.BIN/
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,linux,node,rust,rust-analyzer,windows,yarn
+# End of https://www.toptal.com/developers/gitignore/api/yarn,windows,visualstudiocode,node,macos,linux,rust,rust-analyzer
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
