@@ -1,6 +1,6 @@
 # 🗃️ Entries
 
-Entries is a simple, open-source Notion client built on the Tauri framework. It was created as an alternative to Notion's desktop client, which was known for its high memory consumption.
+Entries is a simple, open-source Notion client built on the Tauri framework.
 
 ## 🗓️ Update Cycle
 
@@ -26,6 +26,12 @@ Before you begin, ensure you have the latest versions of the following installed
 - [Rust](https://www.rust-lang.org/tools/install)
   - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 - [Bun](https://bun.com/)
+
+## 📓 Project Notes
+
+### 🔍 Background
+
+Entries was created as an alternative to Notion's official Electron-based desktop client after experiencing performance issues from its high memory consumption. At first I tried using PWAs (Progressive Web Apps) through Safari and while it was an improvement, I realized there was no native support for Linux. Not wanting to see myself becoming villain, I searched for an alternative to Electron and that's how I discovered Tauri. While Notion is still an RAM hog (often idling at 800 MBs), Entries' total overhead is only 98 MBs on macOS and just as fast.
 
 ## 📄 License
 
