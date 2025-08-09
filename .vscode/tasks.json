@@ -1,0 +1,44 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ui:dev",
+      "type": "shell",
+      "isBackground": true,
+      "command": "yarn",
+      "args": [
+        "dev"
+      ]
+    },
+    {
+      "label": "ui:build",
+      "type": "shell",
+      "command": "yarn",
+      "args": [
+        "build"
+      ]
+    },
+    {
+      "type": "cargo",
+      "command": "tauri",
+      "isBackground": true,
+      "args": [
+        "dev"
+      ],
+      "group": "build",
+      "label": "cargo tauri dev"
+    },
+    {
+      "type": "cargo",
+      "command": "tauri",
+      "isBackground": true,
+      "args": [
+        "build"
+      ],
+      "group": "build",
+      "label": "cargo tauri build"
+    }
+  ]
+}
