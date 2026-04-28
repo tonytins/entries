@@ -26,6 +26,13 @@ Before you begin, ensure you have the latest versions of the following installed
 
 [^1]: [Rust 1.89](https://blog.rust-lang.org/2025/08/07/Rust-1.89.0/) downgrades AMD64 support after Apple and GitHub CI did the same.
 
+### Building
+
+- ``cargo tauri dev`` builds and runs in development mode.
+- ``cargo tauri build`` to build in release mode.
+- ``cargo tauri bundle`` generates bundles and installers.
+
+If you get any version mismatch errors, you can safely ignore them with the ``--ignore-version-mismatches`` option.
 
 ## Project Notes
 
