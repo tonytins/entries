@@ -1,12 +1,12 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "Entries",
-  "version": "0.1.102",
+  "version": "0.1.103",
   "identifier": "com.tonybark.entries",
   "build": {
-    "beforeDevCommand": "bun run dev",
+    "beforeDevCommand": "deno run dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "bun run build",
+    "beforeBuildCommand": "deno run build",
     "frontendDist": "../dist"
   },
   "app": {
