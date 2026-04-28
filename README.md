@@ -15,8 +15,6 @@ Before you begin, ensure you have the latest versions of the following installed
 
 ### Platform Support
 
-| Platform | 
-
 | Target  | Windows | macOS  | Linux |
 | ------- | ------- | ------ | ----- |
 | x86_64  | ✅      | ⚠️[^1] | ✅    |
